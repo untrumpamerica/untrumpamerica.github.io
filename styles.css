@@ -13,7 +13,6 @@ body {
 .full-bleed-background {
   background: #274e9b;
   color: #ffffff;
-  text-align: center;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -22,7 +21,10 @@ body {
 .legalese {
   display: block;
   font-size: 14px;
+  text-align: center;
   text-transform: uppercase;
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 .legalese a {
