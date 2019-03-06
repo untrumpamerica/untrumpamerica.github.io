@@ -13,4 +13,18 @@ body {
 .full-bleed-background {
   background: #274e9b;
   color: #ffffff;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.legalese {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.legalese a {
+  color: #fff;
 }
