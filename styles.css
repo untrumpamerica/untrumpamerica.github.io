@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.full-bleed-background {
+  background: #274e9b;
+  color: #ffffff;
+}
