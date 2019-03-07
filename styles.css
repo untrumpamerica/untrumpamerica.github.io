@@ -23,6 +23,7 @@ body {
 .legalese {
   display: block;
   font-size: 14px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
