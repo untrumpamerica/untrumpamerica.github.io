@@ -16,7 +16,8 @@ body {
 }
 
 .full-bleed-background {
-  background: #274e9b;
+  background: url(images/desktopbg@2x.png) right top no-repeat #274e9b;
+  background-size: cover;
   color: #ffffff;
   height: 100%;
   display: flex;
