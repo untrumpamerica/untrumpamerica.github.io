@@ -16,7 +16,7 @@ body {
 }
 
 .full-bleed-background {
-  background: url(images/desktopbg@2x.png) right top no-repeat #274e9b;
+  background: url(images/desktopbg@2x.png) center center no-repeat #274e9b;
   background-size: cover;
   color: #ffffff;
   height: 100%;
@@ -44,10 +44,16 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  width: 100%;
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
 .legalese a {
   color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .full-bleed-background {
+    background-position: right top;
+    background-size: contain;
+  }
 }
