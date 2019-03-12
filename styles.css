@@ -21,7 +21,21 @@ body {
   color: #ffffff;
   height: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.logoContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  width: 540px;
+  max-width: 100%;
 }
 
 .legalese {
